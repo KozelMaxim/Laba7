@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color:rgb(216, 216, 216);
+  }
+
+  .nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-item {
+    position: relative;
+    width: 100%;
+  }
+  
+  .nav-item:hover > .subnav {
+    display: block;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 20px 30px;
+    
+    background-color: #444;
+    
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: #333;
+  }
+
+.moreinfo{
+width: 800px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+hr{
+  height: 2px;
+  background: black;
+}
+.aret{
+  text-align: center;
+ 
+  background-color: mistyrose;
+}
+.rewa{
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+}
+.dot{
+  width:90%; height:60%;         
+  margin: 0;
+  padding: 0; 
+  background-color: aqua; 
+}
+.rsp{
+  width: 100%;
+  background-color: mistyrose;
+}
